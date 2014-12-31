@@ -15,12 +15,36 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #332f3b;
 }
 
 html {
-    font-size: 1em;
+    font-size: 15px;
     line-height: 1.4;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    -webkit-font-smoothing: antialiased; 
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Animations */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  animation-duration: 1.5s;
+  animation-name: fadein;
 }
 
 /*
@@ -38,6 +62,11 @@ html {
     background: #b3d4fc;
     text-shadow: none;
 }
+
+a { color: #639e25; text-decoration: none; }
+a:hover { color: #88ac26; text-decoration: none; }
+
+.text-dark { color: #332f3b; }
 
 /*
  * A better looking default horizontal rule
@@ -97,22 +126,66 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; }
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus { color: #639e25;
+background-color: transparent; } 
+
+#main-nav { background: transparent; color: #fff; box-shadow: 0 0 0px transparent; -webkit-transition: background 0.3s ease-out; transition: background 0.3s ease-out; border: none; }
+#main-nav.scrolled { background: #fff; border-bottom: 1px solid #ddd; background-color: rgba(255, 255, 255, 0.97); -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); -webkit-transition: background 0.3s ease-out; transition: background 0.3s ease-out; height: 80px; border-top: 5px solid #639e25; }
+#main-nav.scrolled.navbar-default .navbar-brand { color: #332f3b; }
+
+.navbar-default .navbar-brand { color: #fff; font-weight: 800; font-size: 32px; text-transform: uppercase; font-family: 'Roboto', sans-serif; }
+.navbar-default .navbar-brand:hover { color: #fff; }
+.navbar-default .navbar-brand img { display: inline-block; margin-right: 5px; }
 
 
+.navbar-default .navbar-nav>li>a { font-weight: bold; color: #fff; }
+.navbar-default .navbar-nav>li>a:hover { color: #639e25; }
 
+ul.nav.navbar-nav.navbar-right { margin-top: 20px; }
 
+#main-nav.scrolled .nav a, #main-nav.scrolled .nav a:active, #main-nav.scrolled .nav a:hover { font-weight: bold; color: #332f3b; }
 
+.page { width: 100%; height: 100%;  }
 
+.sub-header { padding-top: 80px; max-width: 100%; height: 350px; position: relative; background: url('/img/sub-bg.jpg') repeat-y center top; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.sub-header:before { background-color: #101931; width: 100%; height: 100%; content: ""; position: absolute; left: 0; top: 0; opacity: .7; }
 
+.sub-header h1 { color: #fff; font-size: 50px; opacity: .9; z-index: 99; text-align: center; }
+.sub-header h4 { color: #fff; opacity: .9; z-index: 99; text-align: center; font-weight: 300; line-height: 20px; }
+.sub-header hr { border: 0; border-bottom: 2px solid #373737; border-bottom: 2px solid rgba(255,255,255,0.09); margin: 40px 0; }
 
+.grey-bg { background-color: #ededed; width: 100%; height: auto; }
+.dark-bg { background-color: #332f3b; color: #fff; width: 100%; height: auto; }
 
+.section {  padding-top: 30px; padding-bottom: 30px; }
+.section .left { padding-right: 80px; }
+.section .right { padding-left: 80px; border-left: 1px dotted #a5a5a5; }
+.section h2 { font-weight: 800; font-size: 50px; line-height: 55px; }
+.section h3 { font-size: 28px; line-height: 26px; text-transform: none; padding: 36px 0 16px 0; margin: 0 0 26px 0; font-weight: 700; }
+.section h3 small, .section h2 small { clear: both; display: block; text-transform: none; font-size: 16px; padding-top: 10px; font-weight: 300; }
+.section h4 { font-weight: 300; font-size: 26px; line-height: 30px; margin: 0 0 20px 0; }
 
+.membership-ad { background: #639e25; color: #fff; padding: 20px; }
 
+.holes > .sq { background-color: #fff; padding: 30px; max-height: 200px; }
+.holes > .sq:hover { background-color: #639e25; color: #fff; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; -webkit-transition: background 0.3s ease-out; transition: background 0.3s ease-out; }
 
+.hotel img { display: block; margin: 0 auto; }
 
+.shadow img { border: 9px solid white; outline: 1px solid #eaeaea; box-shadow: 0 10px 41px 0 rgba(9, 26, 44, 0.2); -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; }
 
+footer { width: 100%; background: #fff;  padding: 10px 0 0 0; border-top: 2px solid #ebebeb; }
+footer .navbar-nav { font-size: 13px; text-transform: capitalize; float: right; }
+footer .navbar-nav>li>a { font-weight: bold; color: #332f3b; }
+footer .navbar-nav>li>a:hover { background: transparent;  }
 
+.sub-footer { width: 100%; background: #fff; padding: 5px 0; }
+.sub-footer hr { height: 2px; border: 0; border-bottom: 2px solid #ebebeb; border-bottom: 1px dotted #ebebeb; }
 
+.sub-footer-logo { color: #332f3b; font-weight: 800; font-size: 20px; text-transform: uppercase; }
+.sub-footer-logo img { display: inline-block; margin-right: 5px; }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -220,8 +293,13 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media  (max-width: 768px) {
+    
+#main-nav { background: #fff; border-bottom: 1px solid #ddd; text-align: center; height: 80px; }
+    footer .navbar-nav { display: none; } 
+    .sub-footer p { text-align: center; }
+    #main-nav.scrolled.navbar-default .navbar-brand { font-size: 20px; }
+    
 }
 
 @media print,

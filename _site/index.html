@@ -6,17 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1">
 
-  <title>Your awesome title</title>
+  <title>Fashion Golf Course and Country Club</title>
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
+  
+  <link  rel="stylesheet" href="/css/bootstrap.min.css">
+  <link  rel="stylesheet" href="/css/bootstrap.css.map">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <!-- Base MasterSlider style sheet -->
+  <link rel="stylesheet" href="/masterslider/style/masterslider.css" />
+  <!-- Master Slider Skin -->
+  <link href="/masterslider/skins/default/style.css" rel='stylesheet' type='text/css'>
+  <!-- MasterSlider Template Style --> 
+  <link href='/style/ms-fullscreen.css' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,900,300,100' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://yourdomain.com/">
-  <link  rel="stylesheet" href="css/bootstrap.min.css">
-  <link  rel="stylesheet" href="css/bootstrap.css.map">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="alternate" type="application/atom+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Fashion Golf Course and Country Club" href="http://yourdomain.com/feed.xml" />
     
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
@@ -24,71 +31,253 @@
 
   <body>
 
-    <header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="/">Your awesome title</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        
-          
-          <a class="page-link" href="/about/">About</a>
-          
-        
-          
-        
-          
-        
-          
-        
-      </div>
-    </nav>
-
-  </div>
-
-</header>
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Nov 22, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/jekyll/update/2014/11/22/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-</div>
-
-      </div>
+    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img alt="Fashion Golf Course and Country Club" class="img-responsive" src="/img/logo.png" width="38">fashion golf</a>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     
+      <ul class="nav navbar-nav navbar-right">
+            <li ><a href="/">Home</a></li>
+            <li ><a href="/course/">Course</a></li>
+            <li ><a href="/visitors/">Visitors</a></li>
+            <li ><a href="/club/">Club</a></li>
+            <li ><a href="/membership/">Membership</a></li>
+            <li ><a href="/news-and-blog/">News</a></li>
+            <li ><a href="/contact-us/">Contact Us</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+
+        <!-- masterslider -->
+		<div class="master-slider ms-skin-default" id="masterslider">
+		    <div class="ms-slide slide-1">
+		    	<div class="slide-pattern"></div>
+		        <img src="/masterslider/style/blank.gif" data-src="img/1.jpg" alt="lorem ipsum dolor sit"/>  
+		        <h3 class="ms-layer bold-text-white bigtext"
+					data-type="text"
+					data-effect="rotate3dtop(70,0,0,180)"
+					data-duration="2000"
+					data-ease="easeInOutQuint"
+		        >
+		        	FULLSCREEN
+		        </h3>
+		        <h4 class="ms-layer captiontext"
+					data-type="text"
+					data-effect="rotate3dbottom(-70,0,0,180)"
+					data-duration="2000"
+					data-ease="easeInOutQuint"
+		        >
+		        	TEMPLATE
+		        </h4>
+		    </div>
+		    <div class="ms-slide slide-2">
+		       <div class="slide-pattern"></div>
+		       <h3 class="ms-layer thin-text-white blacktext"
+					data-type="text"
+					data-effect="rotate3dleft(50,0,0,480)"
+					data-duration="2000"
+					data-ease="easeInOutQuint"
+		        >
+		        	MODERN
+		        </h3>
+		        <h3 class="ms-layer thin-text-black whitetext"
+					data-type="text"
+					data-effect="rotate3dright(-50,0,0,480)"
+					data-duration="2000"
+					data-ease="easeInOutQuint"
+		        >
+		        	DESIGN
+		        </h3>
+		        <img src="/masterslider/style/blank.gif" data-src="img/2.jpg" alt="lorem ipsum dolor sit"/>     
+		    </div>
+		    <div class="ms-slide slide-3">
+		       <div class="slide-pattern"></div>
+		        <h3 class="ms-layer thin-text-white blacktext"
+					data-type="text"
+					data-effect="top(45)"
+					data-duration="3400"
+					data-ease="easeOutExpo"
+		        >
+		        	WE CREATE
+		        </h3>
+		        <h4 class="ms-layer bold-text-white bigtext"
+					data-type="text"
+					data-effect="top(45)"
+					data-duration="3400"
+					data-delay="400"
+					data-ease="easeOutExpo"
+		        >
+		        	AWESOME STUFF
+		        </h4>
+		        <img src="/masterslider/style/blank.gif" data-src="img/3.jpg" alt="lorem ipsum dolor sit"/>    
+		    </div>
+		    <div class="ms-slide slide-4">
+		       <div class="slide-pattern"></div>
+
+		       <div class="ms-layer box"
+					data-effect="skewleft(15,250)"
+					data-duration="1300"
+					data-ease="easeOutBack"
+		       ></div>
+
+				<h4 class="ms-layer small-text"
+					data-type="text"
+					data-effect="skewleft(25,250)"
+					data-duration="1000"
+					data-ease="easeOutQuart"
+					data-delay="500"
+		        >
+		        	THE BEST SOLUTION
+		        </h4>
+ 				<h3 class="ms-layer medium-text"
+					data-type="text"
+					data-effect="skewright(25,250)"
+					data-duration="1500"
+					data-ease="easeOutQuart"
+					data-delay="700"
+		        >
+		        	FOR YOUR
+		        </h3>
+				<h3 class="ms-layer big-text"
+					data-type="text"
+					data-effect="scalebottom(1.1,1.1,50)"
+					data-duration="1500"
+					data-ease="easeOutQuart"
+					data-delay="1200"
+		        >
+		        	BUSSINESS
+		        </h3>
+
+		        <img src="/masterslider/style/blank.gif" data-src="img/4.jpg" alt="lorem ipsum dolor sit"/>    
+		    </div>
+
+		    <div class="ms-slide slide-5">
+		       <div class="slide-pattern"></div>
+
+				<h4 class="ms-layer video-caption"
+					data-type="text"
+					data-effect="bottom(50)"
+					data-duration="1540"
+		        >
+		        	HD BACKGROUND VIDEOS
+		        </h4>
+		        <img src="/masterslider/style/blank.gif" data-src="img/video.jpg" alt="lorem ipsum dolor sit"/>    
+		    </div>
+		</div>
+		<!-- end of masterslider -->
+
+
+    <div class="container section">
+        <h2 class="text-center">Welcome to Fashion Golf Course &amp; Country Club <small>The 9-hole “Fashion” course at the Fashion Golf &amp; Country Club features 3,164 yards of golf from the longest tees for a par of 36.</small></h2>
+    </div>
+
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-8"></div>
+            <div class="col-md-4 membership-ad">
+                <h2>Club Member Benifits</h2>
+                <h4>Fashion is a place that is also moving forward. With a focus on the golfer and what makes this the world’s greatest game. We are constantly working to improve the course, the facilities and the total golf experience.</h4>
+                
+                <a class="text-dark" href="/membership/"><strong>Lesrn more about our membership program >></strong></a>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="container section">
+            <div class="col-md-4">
+                <h3 class="text-center">Driving Range <small>The consistently impeccable condition of our golf course is the feature that best characterizes Fashion Golf Course in Hahnville, Louisiana. Course was built to appeal to families, juniors, beginners or anyone looking to play some short holes</small></h3>
+                
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">Putting Surface <small>Every yard of our course, from the tees to the greens, is sure to provide a pleasurable round of golf time and time again. Checkout our putting surface, this is a great area to work on your putting game.</small></h3>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">Monthly Night Golf <small>Night Golf is also great for people who find it hard to fit their golfing time into their busy schedule. With Night Golf you can play whenever you have free time and the best thing of all is that you get to avoid the crowds and heat.</small></h3>
+            </div>
+        </div>
+
+
+    <div class="dark-bg">
+        <div class="container section">
+            <h2 class="text-center">Weather Report</h2>
+                        
+            <h4 class="text-center">Be sure to check the weather before you head out for a round of golf. We will try our best to keep you updated on any closings that’s caused by server weather.</h4>
+        </div>
+    </div>
+
+    
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a class="sub-footer-logo" href="/"><img alt="Fashion Golf Course and Country Club" class="img-responsive" src="/img/logo.png" width="38">fashion golf</a>
+            </div>
+            <div class="col-md-8">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/course/">Course</a></li>
+                    <li><a href="/visitors/">Visitors</a></li>
+                    <li><a href="/visitors/">Club</a></li>
+                    <li><a href="/membership/">Membership</a></li>
+                    <li><a href="/news-and-blog/">News</a></li>
+                    <li><a href="/contact-us/">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="sub-footer">
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-md-12 text-center"><p>&copy; 2014 Fashion Golf Course and Country Club | Designed and Developed by <a>Robert Thomas</a></p></div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="/masterslider/jquery.min.js"></script>
+<script src="/masterslider/jquery.easing.min.js"></script>
+<!-- Master Slider -->
+<script src="/masterslider/masterslider.min.js"></script>
+<script type="text/javascript">		
+	
+		var slider = new MasterSlider();
+
+		slider.control('arrows' ,{insertTo:'#masterslider'});	
+		slider.control('bullets');	
+
+		slider.setup('masterslider' , {
+			width:1024,
+			height:768,
+			space:5,
+            swipe: false,
+			view:'fade',
+			layout:'fullscreen',
+			fullscreenMargin:57,
+			speed:20
+		});
+		
+	</script>
+
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>

@@ -1,8 +1,64 @@
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a class="sub-footer-logo" href="/"><img alt="Fashion Golf Course and Country Club" class="img-responsive" src="/img/logo.png" width="38">fashion golf</a>
+            </div>
+            <div class="col-md-8">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/course/">Course</a></li>
+                    <li><a href="/visitors/">Visitors</a></li>
+                    <li><a href="/visitors/">Club</a></li>
+                    <li><a href="/membership/">Membership</a></li>
+                    <li><a href="/news-and-blog/">News</a></li>
+                    <li><a href="/contact-us/">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="sub-footer">
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-md-12 text-center"><p>&copy; 2014 Fashion Golf Course and Country Club | Designed and Developed by <a>Robert Thomas</a></p></div>
+        </div>
+    </div>
+</div>
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="/masterslider/jquery.min.js"></script>
+<script src="/masterslider/jquery.easing.min.js"></script>
+<!-- Master Slider -->
+<script src="/masterslider/masterslider.min.js"></script>
+<script type="text/javascript">		
+	
+		var slider = new MasterSlider();
+
+		slider.control('arrows' ,{insertTo:'#masterslider'});	
+		slider.control('bullets');	
+
+		slider.setup('masterslider' , {
+			width:1024,
+			height:768,
+			space:5,
+            swipe: false,
+			view:'fade',
+			layout:'fullscreen',
+			fullscreenMargin:57,
+			speed:20
+		});
+		
+	</script>
+
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>

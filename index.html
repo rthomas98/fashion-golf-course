@@ -2,22 +2,156 @@
 layout: default
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<!-- masterslider -->
+		<div class="master-slider ms-skin-default" id="masterslider">
+		    <div class="ms-slide slide-1">
+		    	<div class="slide-pattern"></div>
+		        <img src="/masterslider/style/blank.gif" data-src="img/1.jpg" alt="lorem ipsum dolor sit"/>  
+		        <h3 class="ms-layer bold-text-white bigtext"
+					data-type="text"
+					data-effect="rotate3dtop(70,0,0,180)"
+					data-duration="2000"
+					data-ease="easeInOutQuint"
+		        >
+		        	FULLSCREEN
+		        </h3>
+		        <h4 class="ms-layer captiontext"
+					data-type="text"
+					data-effect="rotate3dbottom(-70,0,0,180)"
+					data-duration="2000"
+					data-ease="easeInOutQuint"
+		        >
+		        	TEMPLATE
+		        </h4>
+		    </div>
+		    <div class="ms-slide slide-2">
+		       <div class="slide-pattern"></div>
+		       <h3 class="ms-layer thin-text-white blacktext"
+					data-type="text"
+					data-effect="rotate3dleft(50,0,0,480)"
+					data-duration="2000"
+					data-ease="easeInOutQuint"
+		        >
+		        	MODERN
+		        </h3>
+		        <h3 class="ms-layer thin-text-black whitetext"
+					data-type="text"
+					data-effect="rotate3dright(-50,0,0,480)"
+					data-duration="2000"
+					data-ease="easeInOutQuint"
+		        >
+		        	DESIGN
+		        </h3>
+		        <img src="/masterslider/style/blank.gif" data-src="img/2.jpg" alt="lorem ipsum dolor sit"/>     
+		    </div>
+		    <div class="ms-slide slide-3">
+		       <div class="slide-pattern"></div>
+		        <h3 class="ms-layer thin-text-white blacktext"
+					data-type="text"
+					data-effect="top(45)"
+					data-duration="3400"
+					data-ease="easeOutExpo"
+		        >
+		        	WE CREATE
+		        </h3>
+		        <h4 class="ms-layer bold-text-white bigtext"
+					data-type="text"
+					data-effect="top(45)"
+					data-duration="3400"
+					data-delay="400"
+					data-ease="easeOutExpo"
+		        >
+		        	AWESOME STUFF
+		        </h4>
+		        <img src="/masterslider/style/blank.gif" data-src="img/3.jpg" alt="lorem ipsum dolor sit"/>    
+		    </div>
+		    <div class="ms-slide slide-4">
+		       <div class="slide-pattern"></div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+		       <div class="ms-layer box"
+					data-effect="skewleft(15,250)"
+					data-duration="1300"
+					data-ease="easeOutBack"
+		       ></div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+				<h4 class="ms-layer small-text"
+					data-type="text"
+					data-effect="skewleft(25,250)"
+					data-duration="1000"
+					data-ease="easeOutQuart"
+					data-delay="500"
+		        >
+		        	THE BEST SOLUTION
+		        </h4>
+ 				<h3 class="ms-layer medium-text"
+					data-type="text"
+					data-effect="skewright(25,250)"
+					data-duration="1500"
+					data-ease="easeOutQuart"
+					data-delay="700"
+		        >
+		        	FOR YOUR
+		        </h3>
+				<h3 class="ms-layer big-text"
+					data-type="text"
+					data-effect="scalebottom(1.1,1.1,50)"
+					data-duration="1500"
+					data-ease="easeOutQuart"
+					data-delay="1200"
+		        >
+		        	BUSSINESS
+		        </h3>
 
-</div>
+		        <img src="/masterslider/style/blank.gif" data-src="img/4.jpg" alt="lorem ipsum dolor sit"/>    
+		    </div>
+
+		    <div class="ms-slide slide-5">
+		       <div class="slide-pattern"></div>
+
+				<h4 class="ms-layer video-caption"
+					data-type="text"
+					data-effect="bottom(50)"
+					data-duration="1540"
+		        >
+		        	HD BACKGROUND VIDEOS
+		        </h4>
+		        <img src="/masterslider/style/blank.gif" data-src="img/video.jpg" alt="lorem ipsum dolor sit"/>    
+		    </div>
+		</div>
+		<!-- end of masterslider -->
+
+
+    <div class="container section">
+        <h2 class="text-center">Welcome to Fashion Golf Course &amp; Country Club <small>The 9-hole “Fashion” course at the Fashion Golf &amp; Country Club features 3,164 yards of golf from the longest tees for a par of 36.</small></h2>
+    </div>
+
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-8"></div>
+            <div class="col-md-4 membership-ad">
+                <h2>Club Member Benifits</h2>
+                <h4>Fashion is a place that is also moving forward. With a focus on the golfer and what makes this the world’s greatest game. We are constantly working to improve the course, the facilities and the total golf experience.</h4>
+                
+                <a class="text-dark" href="/membership/"><strong>Lesrn more about our membership program >></strong></a>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="container section">
+            <div class="col-md-4">
+                <h3 class="text-center">Driving Range <small>The consistently impeccable condition of our golf course is the feature that best characterizes Fashion Golf Course in Hahnville, Louisiana. Course was built to appeal to families, juniors, beginners or anyone looking to play some short holes</small></h3>
+                
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">Putting Surface <small>Every yard of our course, from the tees to the greens, is sure to provide a pleasurable round of golf time and time again. Checkout our putting surface, this is a great area to work on your putting game.</small></h3>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">Monthly Night Golf <small>Night Golf is also great for people who find it hard to fit their golfing time into their busy schedule. With Night Golf you can play whenever you have free time and the best thing of all is that you get to avoid the crowds and heat.</small></h3>
+            </div>
+        </div>
+
+
+    {% include weather.html %}
