@@ -32,6 +32,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="/masterslider/jquery.min.js"></script>
 <script src="/masterslider/jquery.easing.min.js"></script>
 <!-- Master Slider -->
@@ -45,18 +46,22 @@
 
 		slider.setup('masterslider' , {
 			width:1024,
+            start: 4,
 			height:768,
+            autoplay: true,
 			space:5,
             swipe: false,
 			view:'fade',
 			layout:'fullscreen',
 			fullscreenMargin:57,
-			speed:20
+			speed:23, 
+            loop: true
 		});
 		
-	</script>
+</script>
 
 <script src="/js/bootstrap.min.js"></script>
+<script src="/js/gmaps.js"></script>
 <script src="/js/plugins.js"></script>
 <script src="/js/main.js"></script>
 

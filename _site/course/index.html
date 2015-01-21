@@ -83,14 +83,14 @@
             
             <p>Some holes offer respite and opportunities for birdies, but overall Fashion will provide an enthralling examination of the full range of golfing skills.</p>
         </div>
-        <div class="col-md-6 right"></div>
+        <div class="col-md-6 right"><br><br><img  alt="Fashion Golf Course" class="img-responsive round-corners" src="/img/course.jpg"></div>
     </div>
 </div>
 
 <div class="grey-bg">
     <div class="container section">
         <div class="row">
-            <div class="col-md-6 left"></div>
+            <div class="col-md-6 left"><img  alt="Course Details" class="img-responsive round-corners" src="/img/course-details.jpg"></div>
             <div class="col-md-6 right">
                 <h3>Course Details</h3>
                 <p>In the summer, the course plays firm and fast, with lightning fast greens that frequently give a stimpmeter reading of over 9. In winter, or very wet conditions, the course is free draining; meaning that we rarely, if ever, close and winter tees and greens are seldom needed.</p>
@@ -105,6 +105,8 @@
 <div class="container section">
     <h2 class="text-center">The course has a number of challenging holes.</h2>
     
+    <img  alt="Fashion Golf" class="img-responsive round-corners" src="/img/hole-img.jpg">
+    <br>
     <h4 class="text-center">This is a walkable course that is challenging for beginning and intermediate players. All fairways are tree lined, and the greens are small. Four holes have water that comes into play.</h4>
 </div>
 
@@ -176,6 +178,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="/masterslider/jquery.min.js"></script>
 <script src="/masterslider/jquery.easing.min.js"></script>
 <!-- Master Slider -->
@@ -189,18 +192,22 @@
 
 		slider.setup('masterslider' , {
 			width:1024,
+            start: 4,
 			height:768,
+            autoplay: true,
 			space:5,
             swipe: false,
 			view:'fade',
 			layout:'fullscreen',
 			fullscreenMargin:57,
-			speed:20
+			speed:23, 
+            loop: true
 		});
 		
-	</script>
+</script>
 
 <script src="/js/bootstrap.min.js"></script>
+<script src="/js/gmaps.js"></script>
 <script src="/js/plugins.js"></script>
 <script src="/js/main.js"></script>
 
